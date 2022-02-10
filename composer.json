@@ -2,6 +2,6 @@
     "name": "Qcovery/FulltextFinder",
     "description": "Display links to fulltexts in VuFind",
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.4"
     }
 }
