@@ -3,5 +3,8 @@
     "description": "Display links to fulltexts in VuFind",
     "require": {
         "php": ">=7.3"
+    },
+    "extra": {
+        "moduleName": "FulltextFinder"
     }
 }
