@@ -1,6 +1,6 @@
 <?php
 /**
- * SearchBox helper factory.
+ * FulltextFinder helper factory.
  *
  * PHP version 7
  *

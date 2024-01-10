@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * View Helper for Fulltext Finder.
  */
 namespace FulltextFinder\View\Helper\FulltextFinder;
 
@@ -9,13 +9,19 @@ class FulltextFinder extends \Zend\View\Helper\AbstractHelper
     protected $config;
 
     /**
-     *
+     * Constructor.
      */
     public function __construct($config)
     {
         $this->config = $config;
     }
 
+    /**
+     * Build the open URL for the given driver.
+     *
+     * @param $driver RecordDriver to use
+     * @return array|string|string[]
+     */
     public function getOpenUrl($driver) {
         $openUrl = $driver->getOpenUrl();
 
